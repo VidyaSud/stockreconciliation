@@ -1,5 +1,5 @@
 import React from 'react';
-import Aux from '../../hoc/hoc';
+import Aux from '../../hoc/Auxhoc';
 import Button from '../UI/Button/Button';
 
 const displayStockRecon = (props) =>{
