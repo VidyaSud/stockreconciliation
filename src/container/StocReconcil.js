@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import  * as Actions from '../Store/Actions/Index';
 import {connect} from 'react-redux';
-import Aux from '../hoc/Aux';
+import Aux from '../hoc/hoc';
 import Modal from '../components/UI/Modal/Modal';
 import AddNewItem from './AddNewItem/AddNewItem';
 import withErrorHandler from '../hoc/withErrorHandler/withErrorHandler';

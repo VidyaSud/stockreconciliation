@@ -23,17 +23,17 @@ class AddNewItem extends Component {
         const addedItems =[...this.state.NewItems];
         const lastIndex=addedItems.length-1;
         //Do the Mandatory Check Validation
-        if(this.state.NewItems[lastIndex]['ResourceType']=="")
+        if(this.state.NewItems[lastIndex]['ResourceType']==="")
         {
             alert("Please enter Resource Type.");
             return false;
         }
-        else  if(this.state.NewItems[lastIndex]['ResourceGroup'] == "")
+        else  if(this.state.NewItems[lastIndex]['ResourceGroup'] === "")
         {
             alert("Please enter Resource Group.");
             return false;
         }  
-        else  if(this.state.NewItems[lastIndex]['ResourceCode'] == "")
+        else  if(this.state.NewItems[lastIndex]['ResourceCode'] === "")
         {
             alert("Please enter Resource Code.");
             return false;
